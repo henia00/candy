@@ -17,8 +17,8 @@ body {
 
 .menu-item {
     font-family: "Open Sans", sans-serif;
-    font-size: 2rem;
-    margin-right: 1rem;
+    font-size: 30px;
+    margin-right: 10px;
     text-transform: uppercase;
     font-weight: 300;
     text-decoration: none;
@@ -46,13 +46,13 @@ body {
 
 .section-left {
     flex-wrap: wrap-reverse;
-    margin-top: 3rem;
+    margin-top: 50px;
 }
 
 
 .section-right {
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 50px;
 }
 
 .text-title {
@@ -62,6 +62,7 @@ body {
     text-transform: uppercase;
     flex: 1 1 auto;
     font-size: 4vw;
+    /* vw units used to enable automatic scaling of the title */
     text-align: center;
     max-width: 50%;
 }
@@ -81,7 +82,6 @@ body {
     font-size: 20px;
     text-align: center;
     max-width: 50%;
-    /* padding: 3rem; */
 }
 
 .text-normal p {
@@ -92,7 +92,7 @@ body {
     margin: 0;
 }
 
-.kreska {
+.slash {
     color: var(--highlighted-font-color);
 }
 
@@ -114,12 +114,6 @@ img {
     .menu {
         border-bottom: 1px solid var(--separator);
     }
-
-    main {
-        flex-direction: column;
-    }
-
-
 
     .text-normal img {
         display: none;
